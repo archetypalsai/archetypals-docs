@@ -18,7 +18,7 @@ export default async function (req) {
   const hasTitle = searchParams.has("title");
   const title = hasTitle
     ? searchParams.get("title")?.slice(0, 100)
-    : "AnythingLLM";
+    : "Archetypals";
 
   return new ImageResponse(
     (
@@ -50,7 +50,7 @@ export default async function (req) {
             letterSpacing: -1,
           }}
         >
-          AnythingLLM | The all-in-one AI desktop app.
+          Archetypals | The all-in-one AI desktop app.
         </p>
         <h1
           style={{
