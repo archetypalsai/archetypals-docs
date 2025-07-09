@@ -13,7 +13,7 @@ const newRelease = Object.keys(_meta)
 
 const config: DocsThemeConfig = {
   project: {
-    link: 'https://twitter.com/mintplexlabs', // Link for the Twitter icon on top nav bar
+    link: 'https://x.com/archetypalai', // Link for the Twitter icon on top nav bar
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -26,15 +26,15 @@ const config: DocsThemeConfig = {
     )
   },
   chat: {
-    link: 'https://discord.gg/Dh4zSZCdsC', // Link for discord icon on top nav bar
+    link: 'https://discord.gg/5jc5EWsv', // Link for discord icon on top nav bar
   },
-  docsRepositoryBase: 'https://github.com/Mintplex-Labs/anythingllm-docs/tree/main', // Repo link for the 'Edit this page'
+  docsRepositoryBase: 'https://github.com/archetypalsai/archetypals-docs/tree/main', // Repo link for the 'Edit this page'
   footer: {
     text: (
       <span>
         MIT {new Date().getFullYear()} ©{' '}
-        <a href="https://github.com/Mintplex-Labs" target="_blank">
-          Mintplex Labs
+        <a href="https://github.com/archetypalsai" target="_blank">
+          AI Labs
         </a>
         .
       </span>
@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s ~ AnythingLLM' // This is the text shown on the tab name, %s will show the title of current page
+      titleTemplate: '%s ~ Archetypal' // This is the text shown on the tab name, %s will show the title of current page
     }
   },
   sidebar: {
@@ -61,8 +61,8 @@ const config: DocsThemeConfig = {
     const { route } = useRouter()
     const socialCard =
       route === '/' || !title
-        ? 'https://docs.anythingllm.com/images/og.png'
-        : `https://docs.anythingllm.com/api/og?title=${title}`
+        ? 'https://docs.archetypals.ai/images/og.png'
+        : `https://docs.archetypals.ai/api/og?title=${title}`
 
     return (
       <>
@@ -72,16 +72,16 @@ const config: DocsThemeConfig = {
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="description" content="All-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches." />
         <meta name="og:description" content="All-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches." />
-        <meta property="og:url" content="http://docs.anythingllm.com"></meta>
+        <meta property="og:url" content="http://docs.archetypals.ai"></meta>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
-        <meta name="twitter:site:domain" content="docs.anythingllm.com" />
-        <meta property="twitter:title" content="AnythingLLM | The all-in-one AI desktop app." />
+        <meta name="twitter:site:domain" content="docs.archetypals.ai" />
+        <meta property="twitter:title" content="Archetypal | The all-in-one AI desktop app." />
         <meta property="twitter:description" content="All-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches." />
-        <meta name="twitter:url" content="https://docs.anythingllm.com" />
-        <meta name="og:title" content={title ? title + ' – AnythingLLM Docs' : 'AnythingLLM Docs'} />
+        <meta name="twitter:url" content="https://docs.archetypals.ai" />
+        <meta name="og:title" content={title ? title + ' – Archetypal Docs' : 'Archetypal Docs'} />
         <meta name="og:image" content={socialCard} />
-        <meta name="apple-mobile-web-app-title" content="AnythingLLM Docs" />
+        <meta name="apple-mobile-web-app-title" content="Archetypal Docs" />
         <link rel="icon" href="/favicon.png" type="image/png" />
       </>
     )
@@ -97,7 +97,7 @@ const config: DocsThemeConfig = {
           fill="currentColor" />
       </svg>
       <span style={{ marginLeft: '.7em', fontWeight: 700 }}>
-        AnythingLLM Docs
+        Archetypal Docs
       </span>
     </>
   ),
@@ -106,7 +106,7 @@ const config: DocsThemeConfig = {
     key: `${newRelease}-release`, // Storage key to keep the banner state (dismissed or not). If you have updated your banner text, you should change the key to make sure the banner is shown again.
     text: (
       <a href="https://anythingllm.com/download" target="_blank">
-        🚀 AnythingLLM {newRelease} is live! Update now →
+        🚀 Archetypal {newRelease} is live! Update now →
       </a>
     )
   }
