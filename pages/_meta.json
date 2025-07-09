@@ -9,7 +9,7 @@
     }
   },
   "roadmap": {
-    "title": "AnythingLLM Roadmap",
+    "title": "Archetypal Roadmap",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -40,7 +40,7 @@
     }
   },
   "setup": {
-    "title": "AnythingLLM Setup",
+    "title": "Archetypal Setup",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -72,7 +72,7 @@
     "title": "Installation Guides"
   },
   "installation-desktop": {
-    "title": "AnythingLLM Desktop",
+    "title": "Archetypal Desktop",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -81,7 +81,7 @@
     }
   },
   "installation-docker": {
-    "title": "AnythingLLM Self-hosted",
+    "title": "Archetypal Self-hosted",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -90,7 +90,7 @@
     }
   },
   "cloud": {
-    "title": "AnythingLLM Cloud",
+    "title": "Archetypal Cloud",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -139,7 +139,7 @@
     }
   },
   "browser-extension": {
-    "title": "AnythingLLM Browser Extension",
+    "title": "Archetypal Browser Extension",
     "theme": {
       "breadcrumb": true,
       "footer": true,
