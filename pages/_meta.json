@@ -129,15 +129,6 @@
       "toc": true
     }
   },
-  "import-custom-models": {
-    "title": "Importing custom models",
-    "theme": {
-      "breadcrumb": true,
-      "footer": true,
-      "pagination": false,
-      "toc": false
-    }
-  },
   "browser-extension": {
     "title": "Archetypal Browser Extension",
     "theme": {
