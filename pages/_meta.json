@@ -237,16 +237,12 @@
     }
   },
   "company": {
-    "title": "Mintplex Labs",
+    "title": "AI Labs",
     "type": "menu",
     "items": {
-      "sponsor": {
-        "title": "Sponsor",
-        "href": "https://github.com/sponsors/Mintplex-Labs"
-      },
       "contact": {
         "title": "Contact Us",
-        "href": "mailto:team@mintplexlabs.com"
+        "href": "mailto:ben@archetypals.ai"
       },
       "licences": {
         "title": "Licences",
