@@ -71,15 +71,6 @@
     "type": "separator",
     "title": "Installation Guides"
   },
-  "installation-desktop": {
-    "title": "Archetypal Desktop",
-    "theme": {
-      "breadcrumb": true,
-      "footer": true,
-      "pagination": true,
-      "toc": true
-    }
-  },
   "installation-docker": {
     "title": "Archetypal Self-hosted",
     "theme": {
@@ -129,15 +120,7 @@
       "toc": true
     }
   },
-  "browser-extension": {
-    "title": "Archetypal Browser Extension",
-    "theme": {
-      "breadcrumb": true,
-      "footer": true,
-      "pagination": true,
-      "toc": true
-    }
-  },
+
   "nvidia-nims": {
     "title": "NVIDIA NIM Integration",
     "theme": {
